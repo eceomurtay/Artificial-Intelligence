@@ -4,6 +4,7 @@ from timeit import default_timer as timer
 import ids
 
 # n x n maze specifications
+
 ms = input("Enter the maze size: ")
 print("*******************")
 
