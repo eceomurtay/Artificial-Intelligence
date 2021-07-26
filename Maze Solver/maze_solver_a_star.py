@@ -4,6 +4,8 @@ from timeit import default_timer as timer
 import aStar
 
 # n x n maze specifications
+ms = input("Enter the maze size: ")
+print("*******************")
 
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
@@ -14,7 +16,7 @@ SCREEN = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 SCREEN.fill(BLACK)
 pygame.display.set_caption("Maze")
 
-maze_size = 43                              # last 2 digits of my student ID
+maze_size = int(ms)
 cell_width = WINDOW_WIDTH // maze_size
 
 start = (0, 0)
