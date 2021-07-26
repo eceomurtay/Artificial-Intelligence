@@ -1,0 +1,7 @@
+When you run the maze_solver_xx, wait until program creates the maze. 
+Then, press X to close and you will see the solution path which is drawn on the maze. 
+After that, press X again to stop code run.
+
+Program generates two mazes via 'generate(n)' function. When one maze is generated and solved, immediately other one is created.
+
+In maze_solver_a_star, first generated maze uses Euclidean distance and second one uses Manhattan distance.
