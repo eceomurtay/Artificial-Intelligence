@@ -1,6 +1,6 @@
 Solving CSPs (constraint satisfaction problems) using [Z3 Theorem Prover](https://github.com/Z3Prover/z3) and CSP algorithm (using backtracking / forward checking)
 
-Problems specified in SMT-LIB standard
+Problems specified in SMT-LIB standard for Z3
 
 #### 3-SAT problems: 
 
