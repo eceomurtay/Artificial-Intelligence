@@ -2,7 +2,7 @@ Solving CSPs (constraint satisfaction problems) using [Z3 Theorem Prover](https:
 
 Problems specified in SMT-LIB standard
 
-##### 3-SAT problems: 
+#### 3-SAT problems: 
 
 3SAT_1
 
@@ -66,9 +66,9 @@ Problems specified in SMT-LIB standard
 
 (y or r)
 
-##### USAT example
+#### USAT example
 - original: (((¬S → P) → R) ∨ Q) ∧ (Q ∨ R ∨ P) ∧ (¬P ∨ (R ∧ ¬S) ∨ ¬Q)
 - converted into CNF / 3-SAT problem: (¬S ∨ R ∨ Q) ∧ (¬P ∨ R ∨ Q) ∧ (Q ∨ R ∨ P) ∧ (R ∨ ¬P ∨ ¬Q) ∧ (¬S ∨ ¬P ∨ ¬Q)
 
 
-*CSP algorithm: https://github.com/szulcmaciej/CSP/blob/master/model.py
+*CSP algorithm: https://github.com/szulcmaciej/CSP/blob/master/model.py *
