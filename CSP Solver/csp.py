@@ -255,4 +255,4 @@ class Problem:
         return valid_solutions, returns_number, nodes_number
 
 
-# https://github.com/szulcmaciej/CSP/blob/master/mini_tests.py
+# https://github.com/szulcmaciej/CSP/blob/master/model.py
