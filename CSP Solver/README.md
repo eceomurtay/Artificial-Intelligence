@@ -71,4 +71,4 @@ Problems specified in SMT-LIB standard
 - converted into CNF / 3-SAT problem: (¬S ∨ R ∨ Q) ∧ (¬P ∨ R ∨ Q) ∧ (Q ∨ R ∨ P) ∧ (R ∨ ¬P ∨ ¬Q) ∧ (¬S ∨ ¬P ∨ ¬Q)
 
 
-* CSP algorithm: https://github.com/szulcmaciej/CSP/blob/master/model.py *
+*CSP algorithm: [This page](https://github.com/szulcmaciej/CSP/blob/master/model.py)*
